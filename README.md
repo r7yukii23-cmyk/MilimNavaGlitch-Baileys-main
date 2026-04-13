@@ -121,7 +121,7 @@ Detect message type from incoming message object.
 ```js
 milimnava.detect(m)
 // Example
-const type = ourin.detect(m)
+const type = milimnava.detect(m)
 if (type === 'image') {
     // handle image message
 }
